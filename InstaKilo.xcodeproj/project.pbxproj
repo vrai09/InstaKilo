@@ -14,6 +14,9 @@
 		590F758B1F3C00DF0003B21D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590F758A1F3C00DF0003B21D /* Assets.xcassets */; };
 		590F758E1F3C00DF0003B21D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590F758C1F3C00DF0003B21D /* LaunchScreen.storyboard */; };
 		590F75991F3C00DF0003B21D /* InstaKiloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 590F75981F3C00DF0003B21D /* InstaKiloTests.m */; };
+		590F75A51F3C01310003B21D /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 590F75A41F3C01310003B21D /* MyCollectionViewCell.m */; };
+		590F75A81F3C029B0003B21D /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 590F75A71F3C029B0003B21D /* Photo.m */; };
+		591825611F3CE6810051F2AC /* HeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 591825601F3CE6810051F2AC /* HeaderCollectionReusableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		590F75941F3C00DF0003B21D /* InstaKiloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaKiloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		590F75981F3C00DF0003B21D /* InstaKiloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaKiloTests.m; sourceTree = "<group>"; };
 		590F759A1F3C00DF0003B21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590F75A31F3C01310003B21D /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		590F75A41F3C01310003B21D /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		590F75A61F3C029B0003B21D /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		590F75A71F3C029B0003B21D /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		5918255F1F3CE6810051F2AC /* HeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		591825601F3CE6810051F2AC /* HeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionReusableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +94,13 @@
 				590F75821F3C00DF0003B21D /* AppDelegate.m */,
 				590F75841F3C00DF0003B21D /* ViewController.h */,
 				590F75851F3C00DF0003B21D /* ViewController.m */,
+				5918255F1F3CE6810051F2AC /* HeaderCollectionReusableView.h */,
+				591825601F3CE6810051F2AC /* HeaderCollectionReusableView.m */,
 				590F75871F3C00DF0003B21D /* Main.storyboard */,
+				590F75A61F3C029B0003B21D /* Photo.h */,
+				590F75A71F3C029B0003B21D /* Photo.m */,
+				590F75A31F3C01310003B21D /* MyCollectionViewCell.h */,
+				590F75A41F3C01310003B21D /* MyCollectionViewCell.m */,
 				590F758A1F3C00DF0003B21D /* Assets.xcassets */,
 				590F758C1F3C00DF0003B21D /* LaunchScreen.storyboard */,
 				590F758F1F3C00DF0003B21D /* Info.plist */,
@@ -213,8 +228,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				591825611F3CE6810051F2AC /* HeaderCollectionReusableView.m in Sources */,
 				590F75861F3C00DF0003B21D /* ViewController.m in Sources */,
 				590F75831F3C00DF0003B21D /* AppDelegate.m in Sources */,
+				590F75A51F3C01310003B21D /* MyCollectionViewCell.m in Sources */,
+				590F75A81F3C029B0003B21D /* Photo.m in Sources */,
 				590F75801F3C00DF0003B21D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +430,7 @@
 				590F759F1F3C00DF0003B21D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		590F75A01F3C00DF0003B21D /* Build configuration list for PBXNativeTarget "InstaKiloTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				590F75A21F3C00DF0003B21D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
